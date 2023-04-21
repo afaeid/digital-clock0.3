@@ -1,0 +1,94 @@
+/*adding fonts*/
+@font-face {
+ src: url('Poppins-Regular.ttf');
+ font-family: Poppins;
+}
+
+/* reset code */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Poppins;
+}
+
+.container {
+ width: 100%;
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ background-color: #403861;
+}
+
+.time-box {
+ min-width: 80px;
+ min-height: 80px;
+ border-radius: 5px;
+ padding: 5px;
+ margin: 0 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 50px;
+ font-weight: bolder;
+}
+
+.time-box:nth-child(1) {
+ background-color: #F44236;
+ color: #fff;
+}
+
+.time-box:nth-child(2) {
+ background-color: #F4F400;
+ color: #362863;
+}
+
+.time-box:nth-child(3) {
+ background-color: #82D0F4;
+ color: #228101;
+}
+
+.time-field,
+.extra-info-field {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+/* .extra-info-field {} */
+.extra-info-box {
+ min-width: 40px;
+ min-height: 30px;
+ padding: 4px 8px;
+ color: #fff;
+ margin: 10px 5px;
+ border-radius: 5px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-weight: normal;
+}
+
+.extra-info-box:nth-child(1) {
+ background-color: #3F51B5;
+}
+
+.extra-info-box:nth-child(2) {
+ background-color: #FF9700;
+}
+
+.extra-info-box:nth-child(3) {
+ background-color: #8BC34A;
+}
+
+.extra-info-box:nth-child(4) {
+ background-color: #F4F400;
+ color: #362863;
+}
+
+.extra-info-box:nth-child(5) {
+ background-color: #F44236;
+ color: #fff;
+}
